@@ -31,8 +31,8 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-	  String part1 = imput.substring(0,2);
-    String part2 = imput.substring(2,imput.length());
+	  String part1 = input.substring(0,2);
+    String part2 = input.substring(2,input.length());
     return part2 + part1;
 	}
 
